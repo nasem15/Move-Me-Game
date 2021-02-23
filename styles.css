@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  margin: auto;
+  background-color: crimson;
+  width: 480px;
+  height: 100vh;
+}
+
+#startScreen {
+  width: 480px;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#startGame {
+  position: relative;
+  background-color: blanchedalmond;
+  top: 40%;
+  color:black;
+  font-size: xx-large;
+  font-family:fantasy, serif;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+
+#endingScreen {
+  width: 480px;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+
+#gameOver {
+  position: relative;
+  top: 22%;
+  background-color: blanchedalmond;
+  color:black;
+  font-size: xx-large;
+  font-family:fantasy, serif;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  user-select: none;
+}
+
+
+#playAgain {
+  position: relative;
+  top: 48%;
+  background-color: blanchedalmond;
+  color:black;
+  font-size: xx-large;
+  font-family:fantasy, serif;
+  border: 5px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+#startGame:hover,
+#playAgain:hover {
+  border: 5px solid coral;
+  color:coral;
+}
+
